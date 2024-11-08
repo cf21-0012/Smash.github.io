@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Smash Menú</title>
+        <link href="estilos.css" rel="stylesheet">
+        <link href="assets/icons/Logo.gif" rel="shortcut icon">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Anton+SC&family=Arsenal+SC:wght@400;700&family=Roboto&display=swap"
+                rel="stylesheet">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+        <meta name="description"
+                content="Disfruta de las mejores hamburguesas smash, preparadas con ingredientes frescos y una técnica única. ¡Ven y vive la experiencia SmashAddiction!">
+        <meta name="keywords"
+                content="hamburguesas smash, menú, lista, comida gourmet, hamburguesas, comida rápida, restaurantes, Santo Domingo, comida deliciosa">
+        <meta name="author" content="SmashAddiction">
+</head>
+
+<body>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+                integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+                crossorigin="anonymous"></script>
+
+        <nav class="navbar navbar-expand-xxxl bg-body-tertiary sticky-top" data-bs-theme="dark">
+                <div class="container-fluid mx-4 ">
+                        <a href="#hero-section" class="navbar-brand col-xl-3 col-md-4 col-xs-3">
+                                <img class="rounded img-fluid mt-2" src="assets/icons/logo.png" alt="a"
+                                        style="max-height: 10dvh;">
+                                <span class="h1"> SmashAddicts</span>
+                        </a>
+
+                        <div class="col-xxl-1 col-xl-2 col-md-3 col-xs-3 nav-item active h1 visually-hidden">
+                                <a href="#valor-section" class="nav-link active h1">Valores</a>
+                        </div>
+
+                        <div class="col-xl-1 col-xl-2 col-md-3 col-xs-1 nav-item h1 visually-hidden">
+                                <a href="#products-section" class="nav-link active h1">Productos</a>
+                        </div>
+
+                        <div class="col-xxl-1  col-xl-2 col-md-3 col-xs-1 nav-item h1">
+                                <a href="#review-section" class="nav-link active h1 visually-hidden">Reviews</a>
+                        </div>
+                        <div class="col-xxl-1 col-xl-2 col-md-3 col-xs-1 nav-item h1">
+                                <a href="#section-preparation" class="nav-link active h1 visually-hidden">Preparación</a>
+                        </div>
+
+                        <button class="navbar-toggler col-xxl-1 col-xl-1 col-lg-1 col-md-1 my-3 h1" type="button"
+                                data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar"
+                                aria-controls="offcanvasDarkNavbar" aria-label="Toggle navigation">
+                                <span class="navbar-toggler-icon"><img class="img-fluid"
+                                                src="assets/icons/menu-svgrepo-com.svg" alt=""></span>
+                        </button>
+                        <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasDarkNavbar"
+                                aria-labelledby="offcanvasDarkNavbarLabel">
+                                <div class="offcanvas-header">
+                                        <h5 class="offcanvas-title" id="offcanvasDarkNavbarLabel">
+                                                <h1 class="h1">Paginas del Sitio</h1>
+                                                <button type="button" class="btn-close btn-close-white"
+                                                        data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                                </div>
+                                <div class="offcanvas-body">
+                                        <ul class="navbar-nav justify-content-end flex-grow-1 pe-3 mb-2"
+                                                style="font-size: 3dvh;">
+                                                <li class="nav-item">
+                                                        <a class="nav-link active h1 border-bottom mx-3"
+                                                                aria-current="page" href="#">Inicio</a>
+                                                </li>
+                                                <li class="nav-item">
+                                                        <a class="nav-link active h1 border-bottom mx-3"
+                                                                aria-current="page" href="#">Menú del
+                                                                Local</a>
+                                                </li>
+                                                <li class="nav-item">
+                                                        <a class="nav-link active h1 border-bottom mx-3"
+                                                                aria-current="page" href="#">Contactos</a>
+                                                </li>
+                                                <li class="nav-item">
+                                                        <div id="themeToggle"
+                                                                class="theme-toggle text-white h1 border-bottom mx-3"
+                                                                role="button" aria-label="Cambiar tema">
+                                                                <i class="bi bi-sun-fill"></i>
+                                                        </div>
+                                                </li>
+                                        </ul>
+                                </div>
+                        </div>
+                </div>
+        </nav>
+          
+              <!-- Menu Section -->
+              <section class="menu-section py-5">
+                <div class="container">
+                  <h1 class="text-center mb-5"><strong>Nuestras Smashes</strong></h1>
+                  
+                  <!-- Hamburguesas -->
+                  <h2 class="mb-4">Hamburguesas</h2>
+                  <div class="row g-4 mb-5">
+                    <div class="col-md-4 bg">
+                      <div class="card menu-card">
+                        <img src="assets/products/Classic-Smash.jpg" class="card-img-top menu-img" alt="Classic Smash">
+                        <div class="card-body">
+                          <h5 class="card-title"><strong>Classic Smash</strong></h5>
+                          <h5 class="card-title">Carne smash, queso cheddar, lechuga, tomate, cebolla y nuestra salsa especial.</h5>
+                          <h5 class="card-text"><strong>$8.99</strong></h5>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-md-4">
+                      <div class="card menu-card">
+                        <img src="assets/products/Cheese-Lover.jpg" class="card-img-top menu-img" alt="Cheese Lover">
+                        <div class="card-body">
+                          <h5 class="card-title"><strong>Cheese Lover</strong></h5>
+                          <h5 class="card-text" >Doble carne smash, triple queso, bacon y cebolla caramelizada.</h5>
+                          <h5 class="card-text"><strong>$11.99</strong></h5>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-md-4">
+                      <div class="card menu-card">
+                        <img src="https://images.unsplash.com/photo-1553979459-d2229ba7433b" class="card-img-top menu-img" alt="Bacon Supreme">
+                        <div class="card-body">
+                          <h5 class="card-title"><strong>La Linda</strong></h5>
+                          <h5 class="card-text">Carne smash, bacon crujiente, queso americano, cebolla y salsa BBQ.</h5>
+                          <h5 class="card-text"><strong>$10.99</strong></h5>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+          
+                  <!-- Complementos -->
+                  <h2 class="mb-4">Complementos</h2>
+                  <div class="row g-4 mb-5">
+                    <div class="col-md-4">
+                      <div class="card menu-card">
+                        <img src="https://images.unsplash.com/photo-1630384060421-cb20d0e0649d" class="card-img-top menu-img" alt="Papas Fritas">
+                        <div class="card-body">
+                          <h5 class="card-title">Papas Fritas</h5>
+                          <h5 class="card-text">Crujientes papas fritas con sal marina.</h5>
+                          <h5 class="card-text"><strong>$3.99</strong></h5>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-md-4">
+                      <div class="card menu-card">
+                        <img src="https://www.notiactual.com/wp-content/uploads/2017/02/Aros-de-cebolla.jpg" class="card-img-top menu-img" alt="Aros de Cebolla">
+                        <div class="card-body">
+                          <h5 class="card-title"><strong>Aros de Cebolla</strong></h5>
+                          <h5 class="card-text">Aros de cebolla empanizados y fritos.</h5>
+                          <h5 class="card-text"><strong>$4.99</strong></h5>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-md-4">
+                      <div class="card menu-card">
+                        <img src="https://images.unsplash.com/photo-1513104890138-7c749659a591" class="card-img-top menu-img" alt="Malteada">
+                        <div class="card-body">
+                          <h5 class="card-title"><strong>Malteada</strong></h5>
+                          <h5 class="card-title">Cremosa malteada en varios sabores.</h5>
+                          <h5 class="card-title"><strong>$5.99</strong></h5>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </section>
+
+        <footer class=" bg-dark text-white py-4">
+                <div class="container">
+                        <div class="row align-items-center">
+                                <!-- Información de contacto a la izquierda -->
+                                <div class="col-md-4">
+                                        <h5>Contacto</h5>
+                                        <ul class="list-unstyled">
+                                                <li><strong>Teléfono:</strong> +1 829 676 1897</li>
+                                                <li><strong>Correo:</strong> contacto@smashaddiction.com
+                                                </li>
+                                        </ul>
+                                </div>
+
+                                <!-- Contenido en el centro -->
+                                <div class="col-md-4 text-center">
+                                        <div class="social-links mb-4">
+                                                <a href="https://www.youtube.com" class="text-white me-4"><i
+                                                                class="bi bi-youtube"></i></a>
+                                                <a href="https://www.instagram.com" class="text-white me-4"><i
+                                                                class="bi bi-instagram"></i></a>
+                                                <a href="https://github.com/cf21-0012" class="text-white me-4"><i
+                                                                class="bi bi-github"></i></a>
+                                        </div>
+                                        <p class="mb-0">© 2024 SmashAddicts. All rights reserved.</p>
+                                </div>
+
+                                <!-- Modal de políticas de privacidad a la derecha -->
+                                <div class="col-md-4 text-end">
+                                        <button type="button" class="btn btn-link text-white" data-bs-toggle="modal"
+                                                data-bs-target="#privacyModal">
+                                                Políticas de Privacidad
+                                        </button>
+                                </div>
+                        </div>
+                </div>
+
+                <!-- Modal de Políticas de Privacidad -->
+                <div class="modal fade bg-dark" id="privacyModal" tabindex="-1" aria-labelledby="privacyModalLabel"
+                        aria-hidden="true">
+                        <div class="modal-dialog bg-dark">
+                                <div class="modal-content bg-dark">
+                                        <div class="modal-header bg-dark">
+                                                <h1 class="modal-title" id="privacyModalLabel">Políticas
+                                                        de Privacidad
+                                                </h1>
+                                                <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                                        aria-label="Close"></button>
+                                        </div>
+                                        <div class="modal-body bg-dark">
+                                                <h3>
+                                                        En SmashAddiction, nos comprometemos a proteger
+                                                        tu privacidad y
+                                                        asegurarnos de que tu experiencia en nuestro
+                                                        sitio web sea
+                                                        segura y confiable. Esta política de privacidad
+                                                        explica cómo
+                                                        recopilamos, usamos, almacenamos y protegemos la
+                                                        información
+                                                        personal que nos proporcionas a través de
+                                                        nuestro sitio web.
+                                                        <br><br>
+
+                                                        <strong>1. Información que Recopilamos</strong>
+                                                        Recopilamos información personal de diversas
+                                                        formas, incluida la
+                                                        información que proporcionas al interactuar con
+                                                        nuestro sitio
+                                                        web:
+                                                        <br>
+
+                                                        Información de contacto: nombre, dirección de
+                                                        correo
+                                                        electrónico, número de teléfono.
+                                                        Información de pago: detalles de tarjetas de
+                                                        crédito/débito o
+                                                        información de pago proporcionada para realizar
+                                                        pedidos.
+                                                        Datos de navegación: recopilamos información
+                                                        sobre cómo
+                                                        interactúas con nuestro sitio, como direcciones
+                                                        IP, tipos de
+                                                        navegador, páginas visitadas, tiempo de
+                                                        navegación, etc. Esta
+                                                        información se utiliza para mejorar la
+                                                        experiencia del usuario y
+                                                        optimizar nuestro sitio.
+                                                        Cookies y tecnologías de seguimiento: Utilizamos
+                                                        cookies para
+                                                        mejorar la funcionalidad del sitio web,
+                                                        personalizar tu
+                                                        experiencia, y analizar tendencias y
+                                                        estadísticas.
+                                                        <br><br>
+                                                        <strong>2. Cómo Usamos tu Información</strong>
+                                                        La información que recopilamos se utiliza de la
+                                                        siguiente
+                                                        manera:
+                                                        <br>
+
+                                                        Procesar pedidos: Usamos tu información para
+                                                        procesar y
+                                                        gestionar tus pedidos, responder a tus consultas
+                                                        y enviar
+                                                        confirmaciones y actualizaciones.
+                                                        Mejorar nuestros servicios: Analizamos la
+                                                        información de
+                                                        navegación para mejorar el diseño, funcionalidad
+                                                        y contenido de
+                                                        nuestro sitio web.
+                                                        Comunicaciones: Te enviaremos correos
+                                                        electrónicos sobre tu
+                                                        cuenta, pedidos, o información importante sobre
+                                                        nuestros
+                                                        productos y servicios.
+                                                        Marketing: Con tu consentimiento, podemos
+                                                        enviarte ofertas
+                                                        especiales, novedades sobre nuestros productos o
+                                                        promociones.
+                                                        Puedes optar por no recibir estos correos en
+                                                        cualquier momento.
+                                                        3. Compartir tu Información
+                                                        No compartimos, vendemos ni alquilamos tu
+                                                        información personal a
+                                                        terceros. Sin embargo, podemos compartir tus
+                                                        datos con
+                                                        proveedores de servicios que nos ayuden a operar
+                                                        nuestro sitio
+                                                        web o procesar tus pagos, bajo estrictas
+                                                        condiciones de
+                                                        confidencialidad.
+                                                        <br><br>
+
+                                                        <strong>4. Seguridad de tus Datos</strong>
+                                                        Tomamos medidas razonables para proteger tu
+                                                        información
+                                                        personal. Sin embargo, ninguna transmisión de
+                                                        datos por Internet
+                                                        o almacenamiento electrónico es 100% seguro, por
+                                                        lo que no
+                                                        podemos garantizar la seguridad absoluta de la
+                                                        información.
+                                                        <br><br>
+
+                                                        <strong>5. Tus Derechos sobre la
+                                                                Información</strong>
+                                                        Tienes derecho a acceder, corregir o eliminar la
+                                                        información
+                                                        personal que tenemos sobre ti. También puedes
+                                                        optar por no
+                                                        recibir nuestras comunicaciones de marketing. Si
+                                                        deseas ejercer
+                                                        cualquiera de estos derechos, por favor,
+                                                        contáctanos a través de
+                                                        nuestro correo electrónico de contacto.
+                                                        <br><br>
+
+                                                        <strong>6. Uso de Cookies </strong>
+                                                        Utilizamos cookies para personalizar tu
+                                                        experiencia y analizar
+                                                        el tráfico en nuestro sitio. Puedes configurar
+                                                        tu navegador para
+                                                        rechazar todas las cookies, pero esto puede
+                                                        afectar la
+                                                        funcionalidad del sitio.
+                                                        <br> <br>
+
+                                                        </strong>7. Enlaces a Otros Sitios Web<strong>
+                                                                Nuestro sitio web puede contener enlaces
+                                                                a otros sitios.
+                                                                No
+                                                                somos responsables de las prácticas de
+                                                                privacidad de
+                                                                estos
+                                                                sitios y te recomendamos revisar sus
+                                                                políticas de
+                                                                privacidad.
+                                                </h3>
+                                        </div>
+                                        <div class="modal-footer">
+                                                <button type="button" class="btn btn-outline-warning px-3"
+                                                        data-bs-dismiss="modal">Cerrar</button>
+                                        </div>
+                                </div>
+                        </div>
+                </div>
+        </footer>
+
+
+</body>
+
+</html>

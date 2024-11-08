@@ -1,0 +1,107 @@
+:root{
+        ---title: "Anton SC", sans-serif;
+        ---subtitle: "Arsenal SC" sans-serif;
+        ---text: "Robot", sans-serif;
+        ---Light: #fff6e5;
+        ---Dark: #0000;
+        ---orange-dark: #fCB017;
+        color: var(---Dark)        
+}
+
+
+section{
+        background-color: var(---Light);
+}
+body{
+        background-color: var(---Light);   
+}
+
+.bg-div {
+        background-image: url('assets/reviews-bg.jpg');
+        background-size: cover;
+        background-position: center; /* Centra la imagen en el medio del contenedor */
+        background-attachment: fixed;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        flex-direction: column;
+      }
+      
+
+#accord-title{
+        color: var(---orange-dark) !important;
+}
+
+#accord-text{
+        color: var(---orange-dark) !important;
+}
+
+.h1{
+        font-family: var(---title) !important; 
+        color: var(---Light) !important;
+        
+}
+.h2-review{
+        color: var(---Light);
+        font-size: 10px;
+}
+
+.h2{
+      font-family: var(---subtitle)  !important;
+      color: var(---Light) !important;
+}
+
+h3{
+        font-family: var(---text);
+        color: black;
+        font-size: 30px;
+}
+
+
+p, .p{
+        font-family: var(---text) !important; 
+        color: var(---Light) !important;
+}
+
+.par{
+        font-family: var(---text) !important; 
+        color: var(---Dark) !important;
+}
+
+.custom-navbar{
+        background-color: var(---Dark) !important;
+}
+
+
+    
+
+@media (min-width: 950px) {
+        /* Estilos para pantallas mayores a 950px */
+        .h2 {
+          font-size: 80px !important;
+        }
+        .h3{
+          font-size: 50px !important;
+        }
+
+        .h2-review{
+                color: var(---Light);
+                font-size: 20px;
+        }
+      }
+
+      @media (min-width: 550px) {
+        /* Estilos para pantallas mayores a 950px */
+        .h2 {
+          font-size: 80px !important;
+        }
+        .h3{
+          font-size: 50px !important;
+        }
+        .h2-review{
+                color: var(---Light);
+                font-size: 20px;
+        }
+      }
+      

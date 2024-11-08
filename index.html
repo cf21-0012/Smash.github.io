@@ -1,0 +1,507 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>SmashAddicts</title>
+        <link href="estilos.css" rel="stylesheet">
+        <link href="assets/icons/Logo.gif" rel="shortcut icon">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Anton+SC&family=Arsenal+SC:wght@400;700&family=Roboto&display=swap"
+                rel="stylesheet">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+        <meta name="description"
+                content="Disfruta de las mejores hamburguesas smash, preparadas con ingredientes frescos y una técnica única. ¡Ven y vive la experiencia SmashAddiction!">
+        <meta name="keywords"
+                content="hamburguesas smash, comida gourmet, hamburguesas, comida rápida, restaurantes, Santo Domingo, comida deliciosa">
+        <meta name="author" content="SmashAddiction">
+
+</head>
+
+<body>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+                integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+                crossorigin="anonymous"></script>
+
+        <nav class="navbar navbar-expand-xxxl bg-body-tertiary sticky-top" data-bs-theme="dark">
+                <div class="container-fluid mx-4 ">
+                        <a href="#hero-section" class="navbar-brand col-xl-3 col-md-4 col-xs-3">
+                                <img class="rounded img-fluid mt-2" src="assets/icons/logo.png" alt="a"
+                                        style="max-height: 10dvh;">
+                                <span class="h1"> SmashAddicts</span>
+                        </a>
+
+                        <div class="col-xxl-1 col-xl-2 col-md-3 col-xs-3 nav-item active h1">
+                                <a href="#valor-section" class="nav-link active h1">Valores</a>
+                        </div>
+
+                        <div class="col-xl-1 col-xl-2 col-md-3 col-xs-1 nav-item h1">
+                                <a href="#products-section" class="nav-link active h1">Productos</a>
+                        </div>
+
+                        <div class="col-xxl-1  col-xl-2 col-md-3 col-xs-1 nav-item h1">
+                                <a href="#review-section" class="nav-link active h1">Reviews</a>
+                        </div>
+                        <div class="col-xxl-1 col-xl-2 col-md-3 col-xs-1 nav-item h1">
+                                <a href="#section-preparation" class="nav-link active h1">Preparación</a>
+                        </div>
+
+                        <button class="navbar-toggler col-xxl-1 col-xl-1 col-lg-1 col-md-1 my-3 h1" type="button"
+                                data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar"
+                                aria-controls="offcanvasDarkNavbar" aria-label="Toggle navigation">
+                                <span class="navbar-toggler-icon"><img class="img-fluid"
+                                                src="assets/icons/menu-svgrepo-com.svg" alt=""></span>
+                        </button>
+                        <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasDarkNavbar"
+                                aria-labelledby="offcanvasDarkNavbarLabel">
+                                <div class="offcanvas-header">
+                                        <h5 class="offcanvas-title" id="offcanvasDarkNavbarLabel">
+                                                <h1 class="h1">Paginas del Sitio</h1>
+                                                <button type="button" class="btn-close btn-close-white"
+                                                        data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                                </div>
+                                <div class="offcanvas-body">
+                                        <ul class="navbar-nav justify-content-end flex-grow-1 pe-3 mb-2"
+                                                style="font-size: 3dvh;">
+                                                <li class="nav-item">
+                                                        <a class="nav-link active h1 border-bottom mx-3"
+                                                                aria-current="page" href="index.html">Inicio</a>
+                                                </li>
+                                                <li class="nav-item">
+                                                        <a class="nav-link active h1 border-bottom mx-3"
+                                                                aria-current="page" href="Menu.html">Menú del
+                                                                Local</a>
+                                                </li>
+                                                <li class="nav-item">
+                                                        <a class="nav-link active h1 border-bottom mx-3"
+                                                                aria-current="page" href="#">Contactos</a>
+                                                </li>
+                                                <li class="nav-item">
+                                                        <div id="themeToggle" class="theme-toggle text-white h1 border-bottom mx-3" role="button" aria-label="Cambiar tema">
+                                                            <i class="bi bi-sun-fill"></i>
+                                                        </div>
+                                                </li>
+                                        </ul>
+                                </div>
+                        </div>
+                </div>
+        </nav>
+
+
+        <section id="hero-section">
+                <div class="row">
+                        <div class="position-relative">
+                                <video class="ratio ratio-16x9" autoplay loop muted>
+                                        <source src="assets/videos/hero-video.mp4" type="video/mp4">
+                                        Tu navegador no soporta el formato de video.
+                                </video>
+                                <div class="position-absolute top-50 start-50 translate-middle text-center text-white">
+                                        <h2 class="h2">Bienvenido Smasher</h2>
+                                        <p><i>-"Tu nueva adicción al sabor empieza aquí"</i></p>
+                                        <a href="Menu.html" class="btn btn-outline-warning px-3" tabindex=" -1"
+                                                role="button">
+                                                <strong>Ver Menú</strong>
+                                        </a>
+                                </div>
+                        </div>
+                </div>
+        </section>
+
+
+        <section class="py-5" id="valor-section">
+                <div class="container-fluid">
+                        <div class="row justify-content-center">
+                                <div class="col-lg-4">
+                                        <h1 class="mb-4 pt-8" id="accord-title">Nuestra Historia</h1>
+                                        <p class="lead mb-4" id="accord-text">Desde 2020, nos dedicamos a crear
+                                                las
+                                                mejores
+                                                smash
+                                                burgers,
+                                                utilizando ingredientes frescos y de alta calidad.</p>
+                                        <div class="accordion" id="aboutAccordion">
+                                                <div class="accordion-item">
+                                                        <h2 class="accordion-header">
+                                                                <button class="accordion-button" type="button"
+                                                                        data-bs-toggle="collapse"
+                                                                        data-bs-target="#collapseOne">
+                                                                        <strong>Nuestra Misión</strong>
+                                                                </button>
+                                                        </h2>
+                                                        <div id="collapseOne" class="accordion-collapse collapsed show"
+                                                                data-bs-parent="#aboutAccordion">
+                                                                <div class="accordion-body">
+                                                                        "Brindar una experiencia única en cada
+                                                                        bocado, ofreciendo hamburguesas smash de
+                                                                        alta calidad,
+                                                                        con ingredientes frescos y una técnica
+                                                                        que realza el sabor. Queremos que cada
+                                                                        cliente sienta
+                                                                        nuestra pasión en cada producto que
+                                                                        preparamos ."
+                                                                </div>
+                                                        </div>
+                                                </div>
+                                                <div class="accordion-item">
+                                                        <h2 class="accordion-header">
+                                                                <button class="accordion-button collapsed" type="button"
+                                                                        data-bs-toggle="collapse"
+                                                                        data-bs-target="#collapseTwo">
+                                                                        <strong>Nuestros Valores</strong>
+                                                                </button>
+                                                        </h2>
+                                                        <div id="collapseTwo" class="accordion-collapse collapse"
+                                                                data-bs-parent="#aboutAccordion">
+                                                                <div class="accordion-body">
+                                                                        <ol class="list-group list-group-flush">
+                                                                                <li class="list-group-item">✓
+                                                                                        Calidad en cada
+                                                                                        ingrediente para un
+                                                                                        sabor inigualable</li>
+                                                                                <li class="list-group-item">✓
+                                                                                        Servicio
+                                                                                        excepcional hacia
+                                                                                        nuestros Smashers</li>
+                                                                                <li class="list-group-item">✓
+                                                                                        Innovación
+                                                                                        constante con cada
+                                                                                        receta, nunca habra uno
+                                                                                        igual alos demas</li>
+                                                                                <li class="list-group-item">✓
+                                                                                        Una ambiente agradable
+                                                                                        perfecto para que
+                                                                                        invites a tus amigos y
+                                                                                        familiares.
+                                                                                </li>
+                                                                                <li class="list-group-item">✓
+                                                                                        Compromiso con cada uno
+                                                                                        de
+                                                                                        nuestros
+                                                                                        clientes.
+                                                                                <li class="list-group-item">✓
+                                                                                        Valoramos a cada miembro
+                                                                                        y fomentamos un ambiente
+                                                                                        de colaboración para
+                                                                                        que todos puedan aportar
+                                                                                        sus talentos y
+                                                                                        creatividad logrando un
+                                                                                        sabor unico.
+                                                                                </li>
+                                                                        </ol>
+                                                                </div>
+                                                        </div>
+                                                </div>
+                                                <div class="accordion-item">
+                                                        <h2 class="accordion-header">
+                                                                <button class="accordion-button" type="button"
+                                                                        data-bs-toggle="collapse"
+                                                                        data-bs-target="#collapseThree">
+                                                                        <strong>Donde Encontrarnos</strong>
+                                                                </button>
+                                                        </h2>
+                                                        <div id="collapseThree" class="accordion-collapse collapse"
+                                                                data-bs-parent="#aboutAccordion">
+                                                                <div class="accordion-body">
+                                                                        <strong> Local#1 </strong><br>
+                                                                        Av. José Núñez de Cáceres Esq.
+                                                                        Guarocuya, <br> Santo Domingo,
+                                                                        Distrito Nacional 10319<br><br>
+
+                                                                        <strong> Local#2 </strong><br>
+                                                                        Autop. Cnel Rafael Tomás Fernández
+                                                                        Domínguez,<br> Santo Domingo Este
+                                                                        11522<br>
+                                                                </div>
+                                                        </div>
+                                                </div>
+                                        </div>
+                                </div>
+                                <div class="col-lg-4 col-xs-3">
+                                        <div class="about-image-container mb">
+                                                <img src="assets/valor-img.jpeg" alt="Cocinando hamburguesas"
+                                                        class="img-fluid rounded-6">
+                                        </div>
+                                </div>
+                        </div>
+                </div>
+        </section>
+
+        <section id="review-section">
+                <div class="container-fluid bg-div">
+                        <div class="text-center">
+                                <br><br><br><br>
+                                <h2 class="h2-review">"Hamburguesas jugosas, sabor explosivo y un ambiente que engancha
+                                        <br>desde el primer momento.
+                                        Una experiencia que tienes que probar."
+                                </h2>
+                                <p><i>--Carlos Pérez Mendoza Regalado</i></p>
+                                <br><br><br><br>
+                        </div>
+                </div>
+        </section>
+
+        <section id="products-section">
+                <div class="container">
+                        <div class="row justify-content-center">
+                                <div class="col-xxl-10 col-xl-10 col-md-10 col-xs-6 my-4">
+                                        <div id="carouselExampleCaptions" class="carousel slide">
+                                                <div class="carousel-indicators">
+                                                        <button type="button" data-bs-target="#carouselExampleCaptions"
+                                                                data-bs-slide-to="0" class="active" aria-current="true"
+                                                                aria-label="Slide 1"></button>
+                                                        <button type="button" data-bs-target="#carouselExampleCaptions"
+                                                                data-bs-slide-to="1" aria-label="Slide 2"></button>
+                                                        <button type="button" data-bs-target="#carouselExampleCaptions"
+                                                                data-bs-slide-to="2" aria-label="Slide 3"></button>
+                                                </div>
+                                                <div class="carousel-inner">
+                                                        <div class="carousel-item active">
+                                                                <img src="assets/products/Classic-Smash.jpg"
+                                                                        class="d-block w-100 img-fluid rounded-4 img-carousel"
+                                                                        alt="...">
+                                                                <div class="carousel-caption d-none d-md-block">
+                                                                        <h2 class="h2-review">Classic Smash</h2>
+                                                                        <p>La favorita de los Smashers.</p>
+                                                                </div>
+                                                        </div>
+                                                        <div class="carousel-item">
+                                                                <img src="assets/products/Cheese-Lover.jpg"
+                                                                        class="d-block w-100 img-fluid rounded-4 img-carousel"
+                                                                        alt="...">
+                                                                <div class="carousel-caption d-none d-md-block">
+                                                                        <h2 class="h2-review">Cheese Lover</h2>
+                                                                        <p>La smash que te hara addicto al amor</p>
+                                                                </div>
+                                                        </div>
+                                                        <div class="carousel-item">
+                                                                <img src="assets/products/la-morena.jpg"
+                                                                        class="d-block w-100 imf-fluid rounded-4 img-carousel"
+                                                                        alt="...">
+                                                                <div class="carousel-caption d-none d-md-block">
+                                                                        <h2 class="h2-review">La Morena</h2>
+                                                                        <p>Ingredientes únicos, sabor exótico</p>
+                                                                </div>
+                                                        </div>
+                                                </div>
+                                                <button class="carousel-control-prev" type="button"
+                                                        data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+                                                        <span class="carousel-control-prev-icon"
+                                                                aria-hidden="true"></span>
+                                                        <span class="visually-hidden">Previous</span>
+                                                </button>
+                                                <button class="carousel-control-next" type="button"
+                                                        data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+                                                        <span class="carousel-control-next-icon"
+                                                                aria-hidden="true"></span>
+                                                        <span class="visually-hidden">Next</span>
+                                                </button>
+                                        </div>
+                                </div>
+
+                        </div>
+                </div>
+        </section>
+
+        <section id="section-preparation">
+                <div class="container align-items-center mx-5">
+                        <iframe src="https://www.youtube.com/embed/nJPQDyw9YXI?si=SufT-y4Sm6MqpHQi"
+                                title="Smash Preparation" frameborder="0"
+                                allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                class="d-block w-100 rounded-4" referrerpolicy="strict-origin-when-cross-origin"
+                                allowfullscreen width="100%" height="500px">
+                        </iframe>
+                </div>
+        </section>
+
+        <footer class=" bg-dark text-white py-4">
+                <div class="container">
+                        <div class="row align-items-center">
+                                <!-- Información de contacto a la izquierda -->
+                                <div class="col-md-4">
+                                        <h5>Contacto</h5>
+                                        <ul class="list-unstyled">
+                                                <li><strong>Teléfono:</strong> +1 829 676 1897</li>
+                                                <li><strong>Correo:</strong> contacto@smashaddiction.com
+                                                </li>
+                                        </ul>
+                                </div>
+
+                                <!-- Contenido en el centro -->
+                                <div class="col-md-4 text-center">
+                                        <div class="social-links mb-4">
+                                                <a href="https://www.youtube.com" class="text-white me-4"><i
+                                                                class="bi bi-youtube"></i></a>
+                                                <a href="https://www.instagram.com" class="text-white me-4"><i
+                                                                class="bi bi-instagram"></i></a>
+                                                <a href="https://github.com/cf21-0012" class="text-white me-4"><i
+                                                                class="bi bi-github"></i></a>
+                                        </div>
+                                        <p class="mb-0">© 2024 SmashAddicts. All rights reserved.</p>
+                                </div>
+
+                                <!-- Modal de políticas de privacidad a la derecha -->
+                                <div class="col-md-4 text-end">
+                                        <button type="button" class="btn btn-link text-white" data-bs-toggle="modal"
+                                                data-bs-target="#privacyModal">
+                                                Políticas de Privacidad
+                                        </button>
+                                </div>
+                        </div>
+                </div>
+
+                <!-- Modal de Políticas de Privacidad -->
+                <div class="modal fade bg-dark" id="privacyModal" tabindex="-1" aria-labelledby="privacyModalLabel"
+                        aria-hidden="true">
+                        <div class="modal-dialog bg-dark">
+                                <div class="modal-content bg-dark">
+                                        <div class="modal-header bg-dark">
+                                                <h1 class="modal-title" id="privacyModalLabel">Políticas
+                                                        de Privacidad
+                                                </h1>
+                                                <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                                        aria-label="Close"></button>
+                                        </div>
+                                        <div class="modal-body bg-dark">
+                                                <h3>
+                                                        En SmashAddiction, nos comprometemos a proteger
+                                                        tu privacidad y
+                                                        asegurarnos de que tu experiencia en nuestro
+                                                        sitio web sea
+                                                        segura y confiable. Esta política de privacidad
+                                                        explica cómo
+                                                        recopilamos, usamos, almacenamos y protegemos la
+                                                        información
+                                                        personal que nos proporcionas a través de
+                                                        nuestro sitio web.
+                                                        <br><br>
+
+                                                        <strong>1. Información que Recopilamos</strong>
+                                                        Recopilamos información personal de diversas
+                                                        formas, incluida la
+                                                        información que proporcionas al interactuar con
+                                                        nuestro sitio
+                                                        web:
+                                                        <br>
+
+                                                        Información de contacto: nombre, dirección de
+                                                        correo
+                                                        electrónico, número de teléfono.
+                                                        Información de pago: detalles de tarjetas de
+                                                        crédito/débito o
+                                                        información de pago proporcionada para realizar
+                                                        pedidos.
+                                                        Datos de navegación: recopilamos información
+                                                        sobre cómo
+                                                        interactúas con nuestro sitio, como direcciones
+                                                        IP, tipos de
+                                                        navegador, páginas visitadas, tiempo de
+                                                        navegación, etc. Esta
+                                                        información se utiliza para mejorar la
+                                                        experiencia del usuario y
+                                                        optimizar nuestro sitio.
+                                                        Cookies y tecnologías de seguimiento: Utilizamos
+                                                        cookies para
+                                                        mejorar la funcionalidad del sitio web,
+                                                        personalizar tu
+                                                        experiencia, y analizar tendencias y
+                                                        estadísticas.
+                                                        <br><br>
+                                                        <strong>2. Cómo Usamos tu Información</strong>
+                                                        La información que recopilamos se utiliza de la
+                                                        siguiente
+                                                        manera:
+                                                        <br>
+
+                                                        Procesar pedidos: Usamos tu información para
+                                                        procesar y
+                                                        gestionar tus pedidos, responder a tus consultas
+                                                        y enviar
+                                                        confirmaciones y actualizaciones.
+                                                        Mejorar nuestros servicios: Analizamos la
+                                                        información de
+                                                        navegación para mejorar el diseño, funcionalidad
+                                                        y contenido de
+                                                        nuestro sitio web.
+                                                        Comunicaciones: Te enviaremos correos
+                                                        electrónicos sobre tu
+                                                        cuenta, pedidos, o información importante sobre
+                                                        nuestros
+                                                        productos y servicios.
+                                                        Marketing: Con tu consentimiento, podemos
+                                                        enviarte ofertas
+                                                        especiales, novedades sobre nuestros productos o
+                                                        promociones.
+                                                        Puedes optar por no recibir estos correos en
+                                                        cualquier momento.
+                                                        3. Compartir tu Información
+                                                        No compartimos, vendemos ni alquilamos tu
+                                                        información personal a
+                                                        terceros. Sin embargo, podemos compartir tus
+                                                        datos con
+                                                        proveedores de servicios que nos ayuden a operar
+                                                        nuestro sitio
+                                                        web o procesar tus pagos, bajo estrictas
+                                                        condiciones de
+                                                        confidencialidad.
+                                                        <br><br>
+
+                                                        <strong>4. Seguridad de tus Datos</strong>
+                                                        Tomamos medidas razonables para proteger tu
+                                                        información
+                                                        personal. Sin embargo, ninguna transmisión de
+                                                        datos por Internet
+                                                        o almacenamiento electrónico es 100% seguro, por
+                                                        lo que no
+                                                        podemos garantizar la seguridad absoluta de la
+                                                        información.
+                                                        <br><br>
+
+                                                        <strong>5. Tus Derechos sobre la
+                                                                Información</strong>
+                                                        Tienes derecho a acceder, corregir o eliminar la
+                                                        información
+                                                        personal que tenemos sobre ti. También puedes
+                                                        optar por no
+                                                        recibir nuestras comunicaciones de marketing. Si
+                                                        deseas ejercer
+                                                        cualquiera de estos derechos, por favor,
+                                                        contáctanos a través de
+                                                        nuestro correo electrónico de contacto.
+                                                        <br><br>
+
+                                                        <strong>6. Uso de Cookies </strong>
+                                                        Utilizamos cookies para personalizar tu
+                                                        experiencia y analizar
+                                                        el tráfico en nuestro sitio. Puedes configurar
+                                                        tu navegador para
+                                                        rechazar todas las cookies, pero esto puede
+                                                        afectar la
+                                                        funcionalidad del sitio.
+                                                        <br> <br>
+
+                                                        </strong>7. Enlaces a Otros Sitios Web<strong>
+                                                                Nuestro sitio web puede contener enlaces
+                                                                a otros sitios.
+                                                                No
+                                                                somos responsables de las prácticas de
+                                                                privacidad de
+                                                                estos
+                                                                sitios y te recomendamos revisar sus
+                                                                políticas de
+                                                                privacidad.
+                                                </h3>
+                                        </div>
+                                        <div class="modal-footer">
+                                                <button type="button" class="btn btn-outline-warning px-3"
+                                                        data-bs-dismiss="modal">Cerrar</button>
+                                        </div>
+                                </div>
+                        </div>
+                </div>
+        </footer>
+</body>
+
+</html>
