@@ -1,15 +1,39 @@
-document.addEventListener('DOMContentLoaded', (event) => {
-        const themeToggle = document.getElementById('themeToggle');
-        const icon = themeToggle.querySelector('i');
-        const htmlElement = document.documentElement;
+function initDarkMode() {
+    const alternarModoOscuro = document.getElementById('darkModeToggle');
+    const iconoModoOscuro = document.getElementById('darkModeIcon');
+    const cuerpo = document.body;
+  
+    const esModoOscuro = localStorage.getItem('darkMode') === 'true';
     
-        themeToggle.addEventListener('click', () => {
-            if (htmlElement.getAttribute('data-bs-theme') === 'dark') {
-                htmlElement.setAttribute('data-bs-theme', 'light');
-                icon.classList.replace('bi-moon-fill', 'bi-sun-fill');
-            } else {
-                htmlElement.setAttribute('data-bs-theme', 'dark');
-                icon.classList.replace('bi-sun-fill', 'bi-moon-fill');
-            }
-        });
+    if (esModoOscuro) {
+      cuerpo.classList.add('dark-mode');
+      updateDarkModeIcon(true);
+    }
+  
+    alternarModoOscuro?.addEventListener('click', () => {
+      const esOscuro = cuerpo.classList.toggle('dark-mode');
+      localStorage.setItem('darkMode', esOscuro);
+      updateDarkModeIcon(esOscuro);
     });
+  
+    function updateDarkModeIcon(esOscuro) {
+      if (iconoModoOscuro) {
+        iconoModoOscuro.className = esOscuro ? 'bi bi-moon-fill' : 'bi bi-sun-fill';
+      }
+    }
+  }
+  
+  function initContactButton() {
+    const botonCorreoDirecto = document.getElementById('directEmailBtn');
+    
+    if (botonCorreoDirecto) {
+      botonCorreoDirecto.addEventListener('click', () => {
+        window.location.href = 'ms-outlook://compose?to=info@smashbrosburgers.com';
+      });
+    }
+  }
+  
+  document.addEventListener('DOMContentLoaded', () => {
+    initDarkMode();
+    initContactButton();
+  });
